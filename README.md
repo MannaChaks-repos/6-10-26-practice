@@ -17,3 +17,4 @@ create index.html , put (<p>hello world</p>) , save and check (git status)
 <br>
 git add .  ->   git commit -m "intended info to remember"
 <br>
+git push origin main (to send the updates to the github real repo)
