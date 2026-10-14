@@ -1,0 +1,32 @@
+# how to merge and fix conflict
+get the folder on vs code
+<br>
+get the link from github of previously made repo
+<br>
+git clone link (make the clone of the repo)
+<br>
+git checkout -b feature1 (make a new branch) ,Note: if needed to delete sometime(git branch -d feature1) need to be on another branch
+<br>
+git checkout feature1 (navigate to feature1 branch)
+<br>
+git branch (check on which branch you are on)
+<br>
+edit something on index.html
+<br>
+git add . >> git commit -m "edited something" >> git status (nothing to commit)
+<br>
+git push origin feature1 (push feature1 update to github)
+
+#now merge on github between feature1 and main
+get on the main branch
+<br>
+compare and pull (click)
+<br>
+base main    >   compare feature1   > able to merge  > create pull request > merger pull request > confirm 
+
+
+#now pull from github to vscode
+git checkout main (on vscode go to main branch)
+<br>
+git pull origin main (merged on vscode also)
+ 
