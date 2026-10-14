@@ -11,6 +11,8 @@ get into the clone (cd 123)
 <br>
 check files and hidden files (ls , ls -a), must have .git
 <br>
+check the username and email id is there or not (git config --list)
+<br>
 change or edit something on README.md ,save and check (git status)
 <br>
 create index.html , put (<p>hello world</p>) , save and check (git status)
