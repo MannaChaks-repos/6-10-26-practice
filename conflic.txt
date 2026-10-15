@@ -1,0 +1,32 @@
+# go to vscode > connect the repo via link from the github using (git clone link)
+<br>
+go to main branch > index.html > put something new on line 2
+<br>
+git add . > git commit -m "add description" 
+
+
+
+git checkout feature1 (go to another branch named feature1)
+<br>
+index.html > put something new on line 2 
+<br> 
+git add . > git commit -m "add description"
+
+
+#now see difference between main and feature1 
+<br>
+git diff main (checks difference between branches)
+
+
+#now trying to merge them
+<br>
+git merge main > conflict occurs > select the needed one or keep only required lines > save
+<br>
+git status > git add . > git commit -m "adding both features" > git status > git diff main
+
+
+#update is on feature1 only , not on main so >>>
+<br>
+git checkout main
+<br>
+git merge feature1 > git push > go to github and refresh
